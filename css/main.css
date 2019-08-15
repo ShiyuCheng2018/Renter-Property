@@ -40,6 +40,27 @@ body {
   border-radius: 50%;
   padding: 0.5rem;
 }
+.title-underline{
+  width: 12rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2rem;
+}
+.title-underline-center{
+  position: absolute;
+  height: 0.6rem;
+  width: 50%;
+  background: var(--mainGreen);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+.blockquote{
+  border-left: 0.5rem solid var(--mainGreen);
+}
+
 /*end of navbar*/
 /*banner*/
 .banner-info{
@@ -72,6 +93,27 @@ body {
   align-items: center;
 }
 /*end of banner*/
+.img-container{
+  position: relative;
+}
+.featured-icons{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+ transform: translateX(-50%);
+}
+.featured-icon-left{
+  background: var(--mainDark);
+  display: inline-block;
+  color: var(--mainWhite);
+}
+.featured-icon-right{
+  background: var(--mainGreen);
+  display: inline-block;
+  color: var(--mainWhite);
+}
+
+
 
 
 
