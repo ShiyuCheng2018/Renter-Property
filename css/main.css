@@ -113,7 +113,26 @@ body {
   color: var(--mainWhite);
 }
 
+/*featured*/
+.featured{
+  background: var(--mainGrey);
+}
+/*end of featured*/
 
-
+/*contact*/
+.contact{
+  background-color: var(--mainDark);
+  color: var(--mainGreen);
+}
+.contact-btn{
+  background: transparent;
+  border: 0.1rem solid var(--mainWhite);
+  color: var(--mainGreen);
+}
+.contact-btn:hover{
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+/*end of contact*/
 
 
