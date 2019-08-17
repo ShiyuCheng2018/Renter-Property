@@ -136,7 +136,7 @@ body {
 /*end of contact*/
 
 /*service*/
-.services{
+.services, .tour{
   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/bannerBcg.jpeg") center/cover fixed no-repeat;
 }
 .services-info-text{
@@ -172,4 +172,73 @@ body {
   text-decoration: none;
 }
 /*end of service*/
+/*gallery*/
+.gallery-btn:hover{
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.gallery-img-container{
+  position: relative;
+  transition: all 1s linear;
+  overflow: hidden;
+}
+.gallery-img-container:hover{
+  background: rgba(0,0,0,0.9);
+}
+.gallery-img{
+  transition: all 1s linear;
+}
+.gallery-img-container:hover .gallery-img{
+  opacity: 0.3;
+}
+.gallery-info{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.gallery-img-container:hover .gallery-info{
+  transform: translate(-50%, 0);
+}
+.gallery-info:hover{
+  text-decoration: none;
+  color: var(--mainDark);
+}
+.gallery-icon{
+  position: absolute;
+  color: var(--mainWhite);
+  top:50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.gallery-img-container:hover .gallery-icon{
+  opacity: 1;
+}
 
+/*end of gallery*/
+/*tour*/
+.tour-icon{
+  color: var(--mainGreen);
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: var(--mainWhite);
+  border-radius:30%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+.tour-icon:hover{
+  background: var(--mainGreen);
+  color:var(--mainWhite);
+}
+/*end of tour*/
+.footer{
+  background: var(--mainDark);
+}
